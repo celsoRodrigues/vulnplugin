@@ -1,0 +1,27 @@
+name: vulnplugin
+repository: github.com/celsorodrigues/vulnplugin
+version: "0.1.0"
+usage: Template
+description: |-
+  A plugin template
+platforms:
+  - selector:
+      os: darwin
+      arch: amd64
+    uri: https://github.com/celsorodrigues/vulnplugin/releases/download/v0.1.0/vulnplugin_0.1.0_darwin-amd64.tar.gz
+    bin: ./vulnplugin
+  - selector:
+      os: darwin
+      arch: arm64
+    uri: https://github.com/celsorodrigues/vulnplugin/releases/download/v0.1.0/vulnplugin_0.1.0_darwin-arm64.tar.gz
+    bin: ./vulnplugin
+  - selector:
+      os: linux
+      arch: amd64
+    uri: https://github.com/celsorodrigues/vulnplugin/releases/download/v0.1.0/vulnplugin_0.1.0_linux-amd64.tar.gz
+    bin: ./vulnplugin
+  - selector:
+      os: linux
+      arch: arm64
+    uri: https://github.com/celsorodrigues/vulnplugin/releases/download/v0.1.0/vulnplugin_0.1.0_linux-arm64.tar.gz
+    bin: ./vulnplugin

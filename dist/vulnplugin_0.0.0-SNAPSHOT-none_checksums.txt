@@ -1,0 +1,2 @@
+b88e31a5aac852d8d7f72553dd64dea8aeaf6ddba87721f353934296adcfb591  vulnplugin_0.0.0-SNAPSHOT-none_darwin-amd64.tar.gz
+5712ef5bab1d5fba8bef280974ca749b6e0f51580a4133ee1eed3b8848731111  vulnplugin_0.0.0-SNAPSHOT-none_linux-amd64.tar.gz
